@@ -15,7 +15,7 @@ main :: proc() {
 	input := string(buf[:buf_len])
 
 	n, ok := strconv.parse_int(input)
+	result := 0
 
-	result := n
 	fmt.printf("Result: %v", result)
 }
